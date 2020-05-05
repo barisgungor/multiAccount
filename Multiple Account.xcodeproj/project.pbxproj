@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17730EEB64DC9569E9D3C6DD /* Pods_Multiple_Account.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3159B870729D1E53C9C25 /* Pods_Multiple_Account.framework */; };
+		829C4461245F1F9D008369A1 /* SavedWebSiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C4460245F1F9D008369A1 /* SavedWebSiteModel.swift */; };
+		829C4463245F2137008369A1 /* WebSiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C4462245F2137008369A1 /* WebSiteModel.swift */; };
+		829C446624617624008369A1 /* AddWebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C446524617624008369A1 /* AddWebPageViewController.swift */; };
+		829C446924618EE6008369A1 /* AddWebPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C446724618EE6008369A1 /* AddWebPageCollectionViewCell.swift */; };
+		829C446A24618EE6008369A1 /* AddWebPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829C446824618EE6008369A1 /* AddWebPageCollectionViewCell.xib */; };
 		82F81B5F245EC438001572C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F81B5E245EC438001572C3 /* AppDelegate.swift */; };
 		82F81B61245EC438001572C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F81B60245EC438001572C3 /* SceneDelegate.swift */; };
-		82F81B63245EC438001572C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F81B62245EC438001572C3 /* ViewController.swift */; };
+		82F81B63245EC438001572C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F81B62245EC438001572C3 /* HomeViewController.swift */; };
 		82F81B66245EC438001572C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F81B64245EC438001572C3 /* Main.storyboard */; };
 		82F81B68245EC439001572C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F81B67245EC439001572C3 /* Assets.xcassets */; };
 		82F81B6B245EC439001572C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F81B69245EC439001572C3 /* LaunchScreen.storyboard */; };
+		82F81B76245ECA8B001572C3 /* HomePageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F81B74245ECA8B001572C3 /* HomePageCollectionViewCell.swift */; };
+		82F81B77245ECA8B001572C3 /* HomePageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F81B75245ECA8B001572C3 /* HomePageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64C3159B870729D1E53C9C25 /* Pods_Multiple_Account.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiple_Account.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829C4460245F1F9D008369A1 /* SavedWebSiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedWebSiteModel.swift; sourceTree = "<group>"; };
+		829C4462245F2137008369A1 /* WebSiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSiteModel.swift; sourceTree = "<group>"; };
+		829C446524617624008369A1 /* AddWebPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWebPageViewController.swift; sourceTree = "<group>"; };
+		829C446724618EE6008369A1 /* AddWebPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWebPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		829C446824618EE6008369A1 /* AddWebPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddWebPageCollectionViewCell.xib; sourceTree = "<group>"; };
 		82F81B5B245EC438001572C3 /* Multiple Account.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiple Account.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F81B5E245EC438001572C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F81B60245EC438001572C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82F81B62245EC438001572C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82F81B62245EC438001572C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		82F81B65245EC438001572C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82F81B67245EC439001572C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F81B6A245EC439001572C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F81B6C245EC439001572C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F81B74245ECA8B001572C3 /* HomePageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCollectionViewCell.swift; sourceTree = "<group>"; };
+		82F81B75245ECA8B001572C3 /* HomePageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCollectionViewCell.xib; sourceTree = "<group>"; };
+		A307C9C2E87BD70FBF49E782 /* Pods-Multiple Account.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiple Account.release.xcconfig"; path = "Target Support Files/Pods-Multiple Account/Pods-Multiple Account.release.xcconfig"; sourceTree = "<group>"; };
+		F475B8E9567B2C434C65D56A /* Pods-Multiple Account.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiple Account.debug.xcconfig"; path = "Target Support Files/Pods-Multiple Account/Pods-Multiple Account.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17730EEB64DC9569E9D3C6DD /* Pods_Multiple_Account.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41E04A96E079C7D3BB65731A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C3159B870729D1E53C9C25 /* Pods_Multiple_Account.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829C445F245F1F84008369A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				829C4460245F1F9D008369A1 /* SavedWebSiteModel.swift */,
+				829C4462245F2137008369A1 /* WebSiteModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		829C44642461633F008369A1 /* AddWebPage */ = {
+			isa = PBXGroup;
+			children = (
+				829C446524617624008369A1 /* AddWebPageViewController.swift */,
+				829C446B24618EEB008369A1 /* AddWebPageCell */,
+			);
+			name = AddWebPage;
+			sourceTree = "<group>";
+		};
+		829C446B24618EEB008369A1 /* AddWebPageCell */ = {
+			isa = PBXGroup;
+			children = (
+				829C446724618EE6008369A1 /* AddWebPageCollectionViewCell.swift */,
+				829C446824618EE6008369A1 /* AddWebPageCollectionViewCell.xib */,
+			);
+			path = AddWebPageCell;
+			sourceTree = "<group>";
+		};
 		82F81B52245EC438001572C3 = {
 			isa = PBXGroup;
 			children = (
 				82F81B5D245EC438001572C3 /* Multiple Account */,
 				82F81B5C245EC438001572C3 /* Products */,
+				9DC28048B47C05497758D367 /* Pods */,
+				41E04A96E079C7D3BB65731A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,52 @@
 		82F81B5D245EC438001572C3 /* Multiple Account */ = {
 			isa = PBXGroup;
 			children = (
+				829C445F245F1F84008369A1 /* Model */,
+				82F81B72245ECA33001572C3 /* ViewsControllers */,
 				82F81B5E245EC438001572C3 /* AppDelegate.swift */,
 				82F81B60245EC438001572C3 /* SceneDelegate.swift */,
-				82F81B62245EC438001572C3 /* ViewController.swift */,
 				82F81B64245EC438001572C3 /* Main.storyboard */,
 				82F81B67245EC439001572C3 /* Assets.xcassets */,
 				82F81B69245EC439001572C3 /* LaunchScreen.storyboard */,
 				82F81B6C245EC439001572C3 /* Info.plist */,
 			);
 			path = "Multiple Account";
+			sourceTree = "<group>";
+		};
+		82F81B72245ECA33001572C3 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				829C44642461633F008369A1 /* AddWebPage */,
+				82F81B73245ECA42001572C3 /* HomePage */,
+			);
+			name = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		82F81B73245ECA42001572C3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				82F81B62245EC438001572C3 /* HomeViewController.swift */,
+				82F81B78245ED29B001572C3 /* HomePageCell */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		82F81B78245ED29B001572C3 /* HomePageCell */ = {
+			isa = PBXGroup;
+			children = (
+				82F81B74245ECA8B001572C3 /* HomePageCollectionViewCell.swift */,
+				82F81B75245ECA8B001572C3 /* HomePageCollectionViewCell.xib */,
+			);
+			name = HomePageCell;
+			sourceTree = "<group>";
+		};
+		9DC28048B47C05497758D367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F475B8E9567B2C434C65D56A /* Pods-Multiple Account.debug.xcconfig */,
+				A307C9C2E87BD70FBF49E782 /* Pods-Multiple Account.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82F81B6F245EC439001572C3 /* Build configuration list for PBXNativeTarget "Multiple Account" */;
 			buildPhases = (
+				05D0DA8AF8B82C55E532743A /* [CP] Check Pods Manifest.lock */,
 				82F81B57245EC438001572C3 /* Sources */,
 				82F81B58245EC438001572C3 /* Frameworks */,
 				82F81B59245EC438001572C3 /* Resources */,
+				3D2D8A6B7E6084465792A150 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F81B77245ECA8B001572C3 /* HomePageCollectionViewCell.xib in Resources */,
+				829C446A24618EE6008369A1 /* AddWebPageCollectionViewCell.xib in Resources */,
 				82F81B6B245EC439001572C3 /* LaunchScreen.storyboard in Resources */,
 				82F81B68245EC439001572C3 /* Assets.xcassets in Resources */,
 				82F81B66245EC438001572C3 /* Main.storyboard in Resources */,
@@ -133,13 +230,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D0DA8AF8B82C55E532743A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiple Account-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2D8A6B7E6084465792A150 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiple Account/Pods-Multiple Account-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiple Account/Pods-Multiple Account-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multiple Account/Pods-Multiple Account-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82F81B57245EC438001572C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F81B63245EC438001572C3 /* ViewController.swift in Sources */,
+				829C446924618EE6008369A1 /* AddWebPageCollectionViewCell.swift in Sources */,
+				829C4461245F1F9D008369A1 /* SavedWebSiteModel.swift in Sources */,
+				829C4463245F2137008369A1 /* WebSiteModel.swift in Sources */,
+				82F81B76245ECA8B001572C3 /* HomePageCollectionViewCell.swift in Sources */,
+				82F81B63245EC438001572C3 /* HomeViewController.swift in Sources */,
 				82F81B5F245EC438001572C3 /* AppDelegate.swift in Sources */,
+				829C446624617624008369A1 /* AddWebPageViewController.swift in Sources */,
 				82F81B61245EC438001572C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +426,7 @@
 		};
 		82F81B70245EC439001572C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F475B8E9567B2C434C65D56A /* Pods-Multiple Account.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +445,7 @@
 		};
 		82F81B71245EC439001572C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A307C9C2E87BD70FBF49E782 /* Pods-Multiple Account.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

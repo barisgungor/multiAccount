@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddWebPageCollectionViewCell" id="gTV-IL-0wX" customClass="AddWebPageCollectionViewCell" customModule="Multiple_Account" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oej-g4-Wg3">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qVF-yz-EDb">
+                                <rect key="frame" x="3" y="8.5" width="94" height="83"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="5PX-gc-TOh">
+                                        <rect key="frame" x="17" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="PGO-np-JLJ"/>
+                                            <constraint firstAttribute="height" constant="60" id="pFw-Jc-ay1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plM-c2-R6a">
+                                        <rect key="frame" x="0.0" y="68" width="94" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="94" id="CUP-10-ifC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tik_icon" translatesAutoresizingMaskIntoConstraints="NO" id="AR7-wx-Eli">
+                                <rect key="frame" x="61" y="53" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="4Ze-vv-41l"/>
+                                    <constraint firstAttribute="width" constant="25" id="q39-Ud-dwE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="2QU-IE-3YE"/>
+                            <constraint firstAttribute="height" constant="100" id="47f-em-gKE"/>
+                            <constraint firstAttribute="trailing" secondItem="AR7-wx-Eli" secondAttribute="trailing" constant="14" id="Boh-Gw-Di0"/>
+                            <constraint firstItem="AR7-wx-Eli" firstAttribute="top" secondItem="oej-g4-Wg3" secondAttribute="top" constant="53" id="azH-Gg-sbN"/>
+                            <constraint firstItem="qVF-yz-EDb" firstAttribute="centerY" secondItem="oej-g4-Wg3" secondAttribute="centerY" id="bNn-vk-HsW"/>
+                            <constraint firstItem="qVF-yz-EDb" firstAttribute="centerX" secondItem="oej-g4-Wg3" secondAttribute="centerX" id="bwv-bi-2Ld"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oej-g4-Wg3" secondAttribute="trailing" id="8dG-HZ-aM4"/>
+                <constraint firstAttribute="bottom" secondItem="oej-g4-Wg3" secondAttribute="bottom" id="BjW-FW-j0a"/>
+                <constraint firstItem="oej-g4-Wg3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ktu-d4-6tL"/>
+                <constraint firstItem="oej-g4-Wg3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xIf-rh-5i8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="102" height="107"/>
+            <connections>
+                <outlet property="cellView" destination="oej-g4-Wg3" id="XTk-aA-egA"/>
+                <outlet property="imageView" destination="5PX-gc-TOh" id="st9-h3-hh6"/>
+                <outlet property="nameTextLabel" destination="plM-c2-R6a" id="c3c-Cr-3WJ"/>
+                <outlet property="tikIcon" destination="AR7-wx-Eli" id="KiU-Oo-yfg"/>
+            </connections>
+            <point key="canvasLocation" x="175.36231884057972" y="178.125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="tik_icon" width="46" height="46"/>
+        <image name="twitter" width="100" height="100"/>
+    </resources>
+</document>
